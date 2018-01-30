@@ -127,12 +127,12 @@ class T_barang extends CI_Controller
 
     public function _rules() 
     {
-	$this->form_validation->set_rules('nama_barang', 'nama barang', 'trim|required');
-	$this->form_validation->set_rules('deskripsi', 'deskripsi', 'trim|required');
-	$this->form_validation->set_rules('id_gambar', 'id gambar', 'trim|required');
+    	$this->form_validation->set_rules('nama_barang', 'nama barang', 'trim|required');
+    	$this->form_validation->set_rules('deskripsi', 'deskripsi', 'trim|required');
+    	$this->form_validation->set_rules('id_gambar', 'id gambar', 'trim|required');
 
-	$this->form_validation->set_rules('id_barang', 'id_barang', 'trim');
-	$this->form_validation->set_error_delimiters('<span class="text-danger">', '</span>');
+    	$this->form_validation->set_rules('id_barang', 'id_barang', 'trim');
+    	$this->form_validation->set_error_delimiters('<span class="text-danger">', '</span>');
     }
 
 }
